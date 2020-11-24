@@ -69,10 +69,10 @@ function App() {
       <div display="inline-block">
         <div style={{position: 'relative', display: 'flex', flexDirection:'column', justifyContent: 'center'}}>
           <Typography style={{marginBottom: 50}}>
-            Input text below to learn from.
+            Input your workout below (Markov Chain Text Generation Example)
           </Typography>
           <input id="inputBox" style={{height: 200, width: 500, margin: 'auto', marginBottom: 50}}></input>
-          <Button stye={{width: 100}} onClick={() => markovMe()}>Click me to generate text!</Button>
+          <Button stye={{width: 100}} onClick={() => markovMe()}>Click me to generate your workout!</Button>
         </div>
         <div>
           <p id="markovResults" />
